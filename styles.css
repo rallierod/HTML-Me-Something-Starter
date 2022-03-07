@@ -1,1 +1,213 @@
-/* Write your CSS here! */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+main{
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+
+body
+{
+    display: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  background-color: #333;
+  padding: 14px 16px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.img2{
+  float: right;
+  height: 250px;
+  width: auto;
+  vertical-align: top;
+  
+}
+.img3{
+  border: solid 5px black;
+}
+
+h1{
+  position: center;
+  color: #000;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1:before
+{
+    content: '';
+    animation: animate 13s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        content: 'thinks in song lyrics'; 
+    }
+    20%
+    {
+        content: 'laughs at her own jokes'; 
+    }
+    40%
+    {
+        content: 'talks with her hands'; 
+    }
+    60%
+    {
+        content: 'has amazing dance moves'; 
+    }
+    80%
+    {
+        content: 'loves to create'; 
+    }
+    100%
+    {
+        content: 'overanalyzes everything'; 
+    }
+}
+
+.center{
+margin: auto;
+width: auto;
+text-align: center;
+padding: 30px;
+}
+
+p{
+  padding: 10px;
+}
+div{
+  max-width: 1200px;
+  padding: 10px;
+  border: 5px solid white;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+div p{
+  padding: 20px;
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+
+footer{
+  text-align: center;
+}
+
+p2{
+  font-size: 70px;
+}
+
+p3{
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 80px 200px;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Poppins", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/Users/alexandrarodgers/Desktop/LaunchCode/assignment-4-html-me-something-rallierod/images/Hmm.jpeg');
+  min-height: 100%;
+}
+
+.p4{
+  border: solid 5px black;
+  padding: 5px 0;
+  margin: 5px;
+
+}
+
